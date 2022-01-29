@@ -1,0 +1,35 @@
+form:
+  title: Billing Address
+  size: 10
+  width: 12
+  rows:
+    - - type: text
+        name: First name
+      - type: text
+        name: Last name
+    - - type: text
+        name: Username
+    - - type: text
+        name: Email
+    - - type: dropdown
+        name: country
+        options:
+            - San Francisco
+            - Daly City
+      - type: dropdown
+        name: state
+        options:
+            - CA
+            - NV
+      - type: text
+        name: Zip
+    - - type: hr
+    - - type: radio
+        name: Payment
+        options:
+        - Credit card
+        - Debit card
+        - Paypal
+    - - type: hr
+    - - type: button
+        text: Continue to checkout
